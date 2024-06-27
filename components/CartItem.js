@@ -49,7 +49,7 @@ function CartItem(item) {
 
     }
     remove.onclick = () => {
-        cart.splice(basket)
+        cart.splice(basket,1)
         basket.remove()
     }
     return basket
